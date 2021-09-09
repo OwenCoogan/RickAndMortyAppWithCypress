@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+  background-color:	#E8E8E8;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; 
+}
+.research-bar{
+width:100%;
+display:block;
+padding:40px 0px;
+
+}
+.research-bar label{
+  font-weight:600;
+  margin-right:10px;
+  
+}
+
+.search-bar{
+  width:300px;
+  max-width:500px;
+}
+
+.Character-Card{
+  width:100%;
+  position:relative;
+  margin: 25px;
+  height:100%;
+  max-width: 300px;
+  max-height:600px;
+  display:inline-block;
+  margin-bottom: 80px;
+  box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+  border-radius: 20px;
+
+}
+.Character-Card ul{
+  max-width:300px;
+  margin:auto;
+  width:100%;
+  padding:0;
+  background-color:white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-bottom: 10px;
+}
+.Character-Card h2{
+  margin:0;
+  padding:4px;
+  background-color:rgba(247, 252, 255, 0.6);
+}
+
+.Character-Card img{
+  max-width:100%;
+  display:inline-block;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+}
+.Character-Card li{
+  list-style: none;
+  padding: 8px 9px;
+  margin: 0px 8px;
+  border-bottom: 1px solid black;
+}
+.Pagination-Button{
+  display:inline-block;
+  background-color:black;
+  color:white;
+  padding:10px 20px;
+  width:100px;
+  border:0;
+  border-radius:50px;
+  margin:10px;  
+}
+.content-holder{
+  position: absolute;
+  bottom: -42px;
+  width: 100%;
+  max-width: 300px;
+}
+.List-Element b{
+  display:inline-block;
+  width:50%;
+  margin-left:0;
+  text-align:left;
+}
+.List-Element i{
+  display:inline-block;
+  width:45%;
+  margin-right:0;
+  text-align:right;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
