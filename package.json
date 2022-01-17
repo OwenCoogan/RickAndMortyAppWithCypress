@@ -17,8 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "cy:test":"yarn cypress open-ct",
-    "cy:video":"cypress run --record",
+    "cy:test": "yarn cypress open-ct",
+    "cy:video": "cypress run --record",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
