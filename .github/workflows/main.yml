@@ -13,4 +13,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Cypress run
-        uses: myjobglasses/odyssey-cypress-watcher
+        uses: MyJobGlasses/odyssey-cypress-watcher
